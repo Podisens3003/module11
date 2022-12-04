@@ -33,7 +33,8 @@ button {
   max-width: fit-content;
 }
 
-input {
+input,
+select {
   margin: 5px 10px 5px 0;
   border: 0;
   padding: 0 10px;
@@ -45,6 +46,11 @@ input {
   background-color: #3cbc8d;
   color: white;
   max-width: 200px;
+}
+
+select {
+  width: 189px;
+  height: 36px;
 }
 
 main {
